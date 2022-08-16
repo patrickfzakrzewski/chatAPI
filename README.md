@@ -1,11 +1,5 @@
-# ASAPP Chat Backend Challenge v1
-### Overview
-This is a Python boilerplate which runs an HTTP Server configured to answer the endpoints defined in 
-[the challenge you received](https://backend-challenge.asapp.engineering/).
-
-All endpoints are configured under `./app/endpoints`, where each file contains *TODO* comments where you are free to implement your solution.
-Feel free to add supporting functionality wherever you want or move things around (as long as the API is respected), and don't forget to add tests under `./tests`.
-
+Backend for a chatAPI (including input validation, password hashing, and bearer authorization) that allows users to sign up, log in, and send messages to each other. 
+Docker: https://hub.docker.com/repository/docker/patrickfzakrzewski/python-chatapi
 ### Prerequisites
 
 - python >= 3.x
